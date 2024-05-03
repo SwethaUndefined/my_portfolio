@@ -1,24 +1,37 @@
-import logo from './logo.svg';
+import React, { useContext, useEffect } from 'react';
+import AOS from 'aos';
+import "aos/dist/aos.css";
+
 import './App.css';
+import About from './components/About';
+import Banner from './components/Banner';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
+import Header from './components/Header';
+import Projects from './components/Projects';
+import ScrollButton from './components/ScrollButton';
+import Services from './components/Services';
+import GlobalContext from './context/GlobalContext';
 
 function App() {
+  const { scrollTopVisible } = useContext(GlobalContext);
+
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <React.Fragment>
+      <Header />
+      <Banner />
+      <About />
+      <Services />
+      <Projects />
+      <Contact />
+      <Footer />
+      {scrollTopVisible && <ScrollButton />}
+    </React.Fragment>
   );
 }
 
