@@ -46,7 +46,16 @@ const Project = [
       "https://149695847.v2.pressablecdn.com/wp-content/uploads/2020/01/top-10-DS-projects.png",
     title: "Clofus",
     description:
-      "Developed Clofus, an Angular-based project showcasing frontend proficiency, featuring secure sign-in/sign-up, topic creation with secure PDF uploads, and real-time chat with instant answers, including PDF to base64 encoding for backend compatibility.",
+      "Developed Clofus, an Angular-based project showcasing frontend proficiency,featuring secure sign-in/sign-up, topic creation with secure PDF uploads, and real-time chat with instant answers, including PDF to base64 encoding for backend compatibility.",
+  },
+  {
+    id: 6,
+    image:
+      "https://149695847.v2.pressablecdn.com/wp-content/uploads/2020/01/top-10-DS-projects.png",
+    title: "Bike Assembly Application",
+    description:
+    "The Bike Assembly application, built with the MERN stack (MongoDB, Express.js, React, Node.js), includes secure login functionality, allowing users to create accounts and sign in. Users can select a bike model for assembly from a detailed selection interface. The assembly page features an interactive progress mechanism to guide users through the bike assembly process.",
+    url: "https://resplendent-palmier-1a0fa5.netlify.app/bikes",
   },
 ];
 
