@@ -4,8 +4,17 @@ import GlobalContext from "../context/GlobalContext";
 import Title from "./Title";
 
 const Project = [
+ {
+  id: 1,
+  image:
+    "https://149695847.v2.pressablecdn.com/wp-content/uploads/2020/01/top-10-DS-projects.png",
+  title: "Analytics Dashboard",
+  description:
+    "A static dashboard showcasing active users, platform performance, and total revenue using charts and cards. Designed for UI/UX and visualization purposes.",
+  url: "https://eclectic-daifuku-b562ed.netlify.app/",
+},
   {
-    id: 1,
+    id: 2,
     image:
       "https://149695847.v2.pressablecdn.com/wp-content/uploads/2020/01/top-10-DS-projects.png",
     title: "Referral Application",
@@ -15,7 +24,7 @@ const Project = [
     url: "https://poetic-youtiao-6a1053.netlify.app/",
   },
   {
-    id: 2,
+    id: 3,
     image:
       "https://149695847.v2.pressablecdn.com/wp-content/uploads/2020/01/top-10-DS-projects.png",
     title: "Blog Web Application",
@@ -24,7 +33,7 @@ const Project = [
     Githuburl: "https://github.com/SwethaUndefined/Blog-Application",
   },
   {
-    id: 3,
+    id: 4,
     image:
       "https://149695847.v2.pressablecdn.com/wp-content/uploads/2020/01/top-10-DS-projects.png",
     title: "Hotel Booking Web Application",
@@ -33,7 +42,7 @@ const Project = [
     url: "https://remarkable-jalebi-fa22a4.netlify.app/",
   },
   {
-    id: 4,
+    id: 5,
     image:
       "https://149695847.v2.pressablecdn.com/wp-content/uploads/2020/01/top-10-DS-projects.png",
     title: "Agent Desktop",
@@ -41,7 +50,7 @@ const Project = [
       "Led the development of Agent Desktop, a SaaS application for seamless customer-agent interactions via email, chat, and call features using Amazon Connect. Integrated multi-channel communication and a robust task management system, enhancing workflow efficiency and enabling real-time supervision and monitoring for quality assurance.",
   },
   {
-    id: 5,
+    id: 6,
     image:
       "https://149695847.v2.pressablecdn.com/wp-content/uploads/2020/01/top-10-DS-projects.png",
     title: "Clofus",
@@ -49,7 +58,7 @@ const Project = [
       "Developed Clofus, an Angular-based project showcasing frontend proficiency,featuring secure sign-in/sign-up, topic creation with secure PDF uploads, and real-time chat with instant answers, including PDF to base64 encoding for backend compatibility.",
   },
   {
-    id: 6,
+    id: 7,
     image:
       "https://149695847.v2.pressablecdn.com/wp-content/uploads/2020/01/top-10-DS-projects.png",
     title: "Bike Assembly Application",

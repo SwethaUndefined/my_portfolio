@@ -84,6 +84,11 @@ const Skills = [
         id: 22,
         name: "Heroku",
         image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-plain.svg"
+    },
+     {
+        id: 23,
+        name: "Python",
+        image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
     }
 ]
 
